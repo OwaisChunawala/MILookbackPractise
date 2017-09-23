@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#FEFCCB"
     tools:context="com.example.android.milookbackpractise.MainActivity">
 
     <LinearLayout
@@ -17,7 +18,8 @@
         <RelativeLayout
             android:id="@+id/relative_layout_1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#FEFCCB">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -44,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="26dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/parallax_2"
                 android:translationZ="4dp" />
@@ -62,7 +64,8 @@
         <RelativeLayout
             android:id="@+id/relative_layout_2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#FF6658">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -93,7 +96,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/relative_layout_3">
+            android:id="@+id/relative_layout_3"
+            android:background="#FEFCCB">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -139,9 +143,6 @@
                 android:src="@drawable/feather3"
                 android:layout_marginTop="350dp"
                 android:layout_marginLeft="20dp"/>
-
-
-
         </RelativeLayout>
 
 
@@ -150,7 +151,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:paddingRight="30dp"
-            android:paddingBottom="150dp">
+            android:layout_marginBottom="150dp"
+            android:background="#FEFCCB">
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -397,7 +399,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingBottom="150dp"
+            android:paddingBottom="70dp"
             android:background="#dffdfd">
             <!--Cloud Placement Start-->
             <ImageView
@@ -570,11 +572,15 @@
                                 android:textStyle="bold"/>
                         </LinearLayout>
                     </RelativeLayout>
-
                 </FrameLayout>
-
-        </LinearLayout>
-
+                <!--Final Image-->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="70dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/frontpage_end_typography"/>
+            </LinearLayout>
 
         </RelativeLayout>
 
